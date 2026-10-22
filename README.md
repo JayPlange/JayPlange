@@ -1,31 +1,32 @@
-# Edwin Mensah Plange
 
-Engineer and founder building software across product engineering, applied AI and systems.
+# Justice Edwin Mensah Plange
 
-I take ambiguous problems from understanding the workflow through implementation, deployment and iteration.
+Founder-builder shipping software across product engineering and applied AI.
 
-## What I build
-
-- **Product engineering** — web applications, APIs, integrations and browser systems
-- **Applied AI** — LLM workflows, tool calling, structured actions and evaluation
-- **Systems** — state, reliability, external integrations and debugging
+I work from the real workflow to the implementation: integrating APIs, managing state, defining system boundaries, testing failure cases and iterating on working software.
 
 ## Selected work
 
-**[DualProfile](https://github.com/JayPlange/DualProfile)**
-A Chrome extension that gives users different WhatsApp Web profile photos for different contacts. Built and operated as a production product, with a Convex backend, browser-side reconciliation and per-feature product controls.
+### [DualProfile](https://github.com/JayPlange/DualProfile)
 
-**[KasaFlow](https://github.com/JayPlange/Kasaflow)**
-An applied AI operator for a jewellery retailer that turns customer conversations into business actions. The system separates model decisions from application execution and uses tests and operational feedback to improve the workflow.
+A Chrome extension that lets people use different WhatsApp Web profile photos for different contacts.
 
-## How I work
+Built end to end, with a Manifest V3 extension, Convex backend, browser-side reconciliation and per-feature product controls. Shipped as a live product with users and paid tiers.
 
-**Understand → Model → Build → Deploy → Observe → Iterate**
+### [KasaFlow](https://github.com/JayPlange/Kasaflow)
 
-I start with the actual workflow and turn it into explicit system boundaries. I ship the smallest useful system, then use failures, user behaviour and operational feedback to decide what to change.
+An AI operator for SME customer workflows on WhatsApp, currently under development.
+
+Integrates the WhatsApp Cloud API with a WooCommerce catalogue. Supports product lookups, delivery information, recommendations and quote preparation. Its design separates read-only tools from order-writing actions, with explicit confirmation before an order can be committed.
+
+## Engineering approach
+
+**Understand → Model → Build → Test → Deploy → Observe → Iterate**
+
+I start with the actual workflow, make system boundaries explicit and test what happens when things go wrong. I care about the parts beyond the happy path: stale state, failed integrations, ambiguous requests and unintended actions.
 
 ## Background
 
-My background spans network operations, enterprise IT and independent product engineering. That experience shapes how I think about failure modes, state, debugging and software in real environments.
+My experience spans network operations, enterprise IT compliance and independent product engineering. It informs how I approach reliability, debugging and software used in real environments.
 
 [Portfolio](https://edwinplange.vercel.app) · [LinkedIn](https://linkedin.com/in/edwin-plange)
